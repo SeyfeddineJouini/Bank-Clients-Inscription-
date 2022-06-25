@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<eer>
+	<commentaire></commentaire>
+	<client>
+		<nature>entreprise</nature>
+		<adress>ras jbal</adress>
+		<ville>3</ville>
+		<annee>2002</annee>
+		<mois>8</mois>
+		<jour>12</jour>
+		<telephone>00385865</telephone>
+		<email>svfef@gmail.com</email>
+		<denominastionSociale>bfi</denominastionSociale>
+		<descriptionActivite>finance</descriptionActivite>
+		<formeJuridique>SARL</formeJuridique>
+		<structureJuridique>SocieteCommerciale</structureJuridique>
+		<codeAgentEconomique>EntrepriseFinanciere</codeAgentEconomique>
+		<nomContact>mohamed</nomContact>
+		<prenomContact>bouaziz</prenomContact>
+		<telContact>825547888</telContact>
+		<emailContact>mohamed@bouazizi@gmail.com</emailContact>
+	</client>
+	<demandeFinancement>
+		<delegation>bizerte</delegation>
+		<coutProjet>8055.5</coutProjet>
+		<situationGeoProjet>1</situationGeoProjet>
+		<secteurProjet>1</secteurProjet>
+		<typeFinancement>1</typeFinancement>
+		<categorieProjet>1</categorieProjet>
+		<description>demande financement projet</description>
+		<lignes>
+			<ligne>
+				<duree>15</duree>
+				<montant>665.2</montant>
+				<idProduit>1</idProduit>
+				<description>ligne8</description>
+			</ligne>
+			<ligne>
+				<duree>65</duree>
+				<montant>99.5</montant>
+				<idProduit>1</idProduit>
+				<description>ligne7</description>
+			</ligne>
+
+		</lignes>
+		<docs>
+			<doc>
+				<nom>justificatif</nom>
+				<description>....</description>
+				<contenu>c2VsZWN0ICdkcm9wIHRhYmxlICcgfHwgdGFibGVfbmFtZSB8fCAnIENBU0NBREUgQ09OU1RSQUlOVFM7JyBmcm9tIHVzZXJfdGFibGVzOw==
+c2VsZWN0ICdkcm9wIHNlcXVlbmNlICcgfHwgc2VxdWVuY2VfbmFtZSB8fCAnOycgZnJvbSB1c2VyX3NlcXVlbmNlczsg</contenu>
+			</doc>
+			<doc>
+				<nom>certificat</nom>
+				<description>certificat de .....</description>
+				<contenu>c2VsZWN0ICdkcm9wIHRhYmxlICcgfHwgdGFibGVfbmFtZSB8fCAnIENBU0NBREUgQ09OU1RSQUlOVFM7JyBmcm9tIHVzZXJfdGFibGVzOw==
+c2VsZWN0ICdkcm9wIHNlcXVlbmNlICcgfHwgc2VxdWVuY2VfbmFtZSB8fCAnOycgZnJvbSB1c2VyX3NlcXVlbmNlczsg</contenu>
+			</doc>
+		</docs>
+	</demandeFinancement>
+	<comptes>
+		<compte>
+			<numero>1010</numero>
+			<typecompte>3</typecompte>
+			<solde>524.53</solde>
+			<rib>878</rib>
+			<description>compte 10</description>
+		</compte>
+		<compte>
+			<numero>1111</numero>
+			<typecompte>2</typecompte>
+			<solde>45245.5</solde>
+			<rib>464</rib>
+			<description>compte 11</description>
+		</compte>
+		<compte>
+			<numero>2222</numero>
+			<typecompte>6</typecompte>
+			<solde>685.9</solde>
+			<rib>99</rib>
+			<description>compte 12</description>
+		</compte>
+	</comptes>
+
+</eer>
+	 

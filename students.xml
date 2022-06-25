@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<class>
+	<student id="1000">
+		<firstname>seyf</firstname>
+		<lastname>jouini</lastname>
+		<score>164</score>
+		<matieres>
+			<matiere>
+				<nom>math</nom>
+			</matiere>
+			<matiere>
+				<nom>physique</nom>
+			</matiere>
+			<matiere>
+				<nom>arabe</nom>
+			</matiere>
+		</matieres>
+	</student>
+
+</class>

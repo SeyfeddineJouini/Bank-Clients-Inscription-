@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<eer>
+<commentaire></commentaire>
+	<client>
+		<nature>particulier</nature>
+		<adress>manzel tmim</adress>
+		<ville>3</ville>
+		<prenom>ahmed</prenom>
+		<nom>mohamed</nom>
+		<annee>2002</annee>
+		<mois>8</mois>
+		<jour>12</jour>
+		<telephone>00385865</telephone>
+		<email>svfef@gmail.com</email>
+		<lieuNaissance>tunis</lieuNaissance>
+		<nationality>tunisie</nationality>
+		<annee1>2021</annee1>
+		<mois1>7</mois1>
+		<jour1>2</jour1>
+		<nomEmployeur>nom1</nomEmployeur>
+		<secteurActivite>info</secteurActivite>
+		<civilite>Monsieur</civilite>
+		<typeLogement>Locataire</typeLogement>
+		<profession>DIRIGEANT</profession>
+		<typeContrat>CONTRACTUEL</typeContrat>
+		<secteurActiviteEmployeur>PUBLIC</secteurActiviteEmployeur>
+		<tailleEmployeur>TPE</tailleEmployeur>
+	</client>
+	<demandeFinancement>
+		<delegation>sousse</delegation>
+		<coutProjet>25750.0</coutProjet>
+		<situationGeoProjet>1</situationGeoProjet>
+		<secteurProjet>1</secteurProjet>
+		<typeFinancement>1</typeFinancement>
+		<categorieProjet>1</categorieProjet>
+			<description>demande financement.....</description>
+		<lignes>
+			<ligne>
+				<duree>2</duree>
+				<montant>24.5</montant>
+				<idProduit>1</idProduit>
+			<description>ligne1</description>
+			</ligne>
+			<ligne>
+				<duree>5</duree>
+				<montant>9.5</montant>
+				<idProduit>1</idProduit>
+			<description>ligne2</description>
+			</ligne>
+
+		</lignes>
+		<docs>
+			<doc>
+				<nom>justificatif</nom>
+				<description>....</description>
+				<contenu>c2VsZWN0ICdkcm9wIHRhYmxlICcgfHwgdGFibGVfbmFtZSB8fCAnIENBU0NBREUgQ09OU1RSQUlOVFM7JyBmcm9tIHVzZXJfdGFibGVzOw==
+c2VsZWN0ICdkcm9wIHNlcXVlbmNlICcgfHwgc2VxdWVuY2VfbmFtZSB8fCAnOycgZnJvbSB1c2VyX3NlcXVlbmNlczsg</contenu>
+			</doc>
+			<doc>
+				<nom>cin</nom>
+				<description>carte identite nationale</description>
+				<contenu>c2VsZWN0ICdkcm9wIHRhYmxlICcgfHwgdGFibGVfbmFtZSB8fCAnIENBU0NBREUgQ09OU1RSQUlOVFM7JyBmcm9tIHVzZXJfdGFibGVzOw==
+c2VsZWN0ICdkcm9wIHNlcXVlbmNlICcgfHwgc2VxdWVuY2VfbmFtZSB8fCAnOycgZnJvbSB1c2VyX3NlcXVlbmNlczsg</contenu>
+			</doc>
+		</docs>
+	</demandeFinancement>
+	<comptes>
+		<compte>
+			<numero>777</numero>
+			<typecompte>3</typecompte>
+			<solde>50.886</solde>
+			<rib>122</rib>
+			<description>compte 7</description>
+		</compte>
+		<compte>
+			<numero>888</numero>
+			<typecompte>2</typecompte>
+			<solde>80.6</solde>
+			<rib>502</rib>
+			<description>compte 8</description>
+		</compte>
+		<compte>
+			<numero>999</numero>
+			<typecompte>6</typecompte>
+			<solde>25.32</solde>
+			<rib>886</rib>
+			<description>compte 9</description>
+		</compte>
+	</comptes>
+	
+</eer>
+	 
