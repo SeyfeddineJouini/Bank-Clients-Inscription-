@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+
+	<persistence-unit name="jpa_first" transaction-type="RESOURCE_LOCAL">
+	<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <class>com.bfi.client.Client</class>
+    <class>com.bfi.client.Particulier</class>
+    <class>com.bfi.client.Entreprise</class>
+    <class>com.bfi.client.Ville</class>
+    <class>com.bfi.compte.Compte</class>
+    <class>com.bfi.compte.TypeCompte</class>
+    <class>com.bfi.compte.DocumentsCompte</class>
+    <class>com.bfi.financement.CategorieProjet</class>
+    <class>com.bfi.financement.DemandeFinancement</class>
+    <class>com.bfi.financement.DocumentsFinancement</class>
+    <class>com.bfi.financement.LigneDeFinancement</class>
+    <class>com.bfi.financement.Produit</class>
+    <class>com.bfi.financement.SecteurProjet</class>
+    <class>com.bfi.financement.SituationGeographiqueProjet</class>
+    <class>com.bfi.financement.TypeDeFinancement</class>
+    <class>com.bfi.relation.EntreeEnRelation</class>
+    <properties>
+   		<property name="hibernate.transaction.jta.platform" value ="hibernate.transaction.jta.platform"></property>
+        <property name="hibernate.connection.driver_class" value ="oracle.jdbc.driver.OracleDriver"></property>
+        <property name="hibernate.connection.username" value="homeuser"></property>
+        <property name="hibernate.connection.password" value ="password2"></property>
+        <property name="hibernate.connection.url" value="jdbc:oracle:thin:@localhost:1521:XE"></property>
+		<property name="hibernate.hbm2ddl.auto" value ="update"></property>      
+        <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"></property>
+    	<property name="hibernate.show_sql" value ="true"></property>  <!-- debogage -->
+    	<!-- <property name="connection.autocommit" value ="false"></property>    -->
+    		
+     </properties>
+         
+	</persistence-unit>
+</persistence>
+
+
+
+
